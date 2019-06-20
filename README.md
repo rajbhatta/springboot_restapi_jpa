@@ -1,4 +1,4 @@
-# Spring Boot REST API using JPA and Mockito
+# Spring Boot REST API using Spring Boot, JPA and Mockito
 
 This application, first creates a user account by calling http://localhost:8080/adduser.
 
