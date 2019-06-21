@@ -7,7 +7,7 @@ Furthermore, this application first creates a user account by passing JSON objec
 
 For payment processing, this application calls http://localhost:8080/addcreditcard
 
-I have created an orchestration REST API that will orchestrate the calls between the user creation, and the payment processing APIs. 
+I have created an orchestration REST API that will orchestrate the calls between the user creation, and the payment processing APIs 
 using http://localhost:8080/orchestra-call
 
 I have performed the unit testing on create, list and delete operations. 
