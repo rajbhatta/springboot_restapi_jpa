@@ -1,11 +1,18 @@
 # Spring Boot REST API using Spring Boot, JPA and Mockito
 
-Note: for REST CLIENT, I have created two files using HTML and angularJS:  creditcard.html and user.html. So, you can call:
-http://localhost:8080/creditcard.html or http://localhost:8080/user.html, if you don't wanna use the postman for generating JSON data.
+Note: for REST CLIENT, I have created two files using HTML and angularJS:  
+- creditcard.html 
+- user.html. 
+So, you can call below listed url if you don't wanna use the postman for generating JSON data.
 
-Furthermore, this application first creates a user account by passing JSON object to http://localhost:8080/adduser.
+- http://localhost:8080/creditcard.html 
+- or http://localhost:8080/user.html, 
 
-For payment processing, this application calls http://localhost:8080/addcreditcard
+Furthermore, this application first creates a user account by passing JSON object to:
+- http://localhost:8080/adduser.
+
+For payment processing, this application calls 
+- http://localhost:8080/addcreditcard
 
 I have created an orchestration REST API that will orchestrate the calls between the user creation, and the payment processing APIs 
 using http://localhost:8080/orchestra-call

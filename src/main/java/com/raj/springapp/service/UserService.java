@@ -6,8 +6,9 @@ import com.raj.springapp.model.User;
 
 public interface UserService {
 
-	User saveUser(User user);
-	List<User> getUserList();
-	User removeUser(User user);
-	
+  User saveUser(User user);
+
+  List<User> getUserList();
+
+  User removeUser(User user);
 }

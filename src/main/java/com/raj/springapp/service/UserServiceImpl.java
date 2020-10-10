@@ -13,26 +13,22 @@ import com.raj.springapp.model.User;
 @Service
 public class UserServiceImpl implements UserService {
 
-	@Autowired
-	private UserRespository userRepository;
-	
-	@Override
-	public User saveUser(User user) {
-		return userRepository.save(user);
-	}
-	
-	@Override
-	public List<User> getUserList() {
-		List<User> users=userRepository.findAll();
-		return users;
-	}
-	
-	@DeleteMapping(value="/delete/user")
-	public User removeUser(@RequestBody User user)
-	{
-		userRepository.delete(user);
-		return user;
-	}
+  @Autowired private UserRespository userRepository;
 
+  @Override
+  public User saveUser(User user) {
+    return userRepository.save(user);
+  }
 
+  @Override
+  public List<User> getUserList() {
+    List<User> users = userRepository.findAll();
+    return users;
+  }
+
+  @DeleteMapping(value = "/delete/user")
+  public User removeUser(@RequestBody User user) {
+    userRepository.delete(user);
+    return user;
+  }
 }
