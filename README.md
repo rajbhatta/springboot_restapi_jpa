@@ -1,8 +1,9 @@
 # Spring Boot REST API using Spring Boot, JPA and Mockito
 
-Note: for REST CLIENT, I have created two files using HTML and angularJS:  
+Note: for REST CLIENT, two files are created and stored inside src/webapp using HTML and angularJS but we can use Postmans 
 - creditcard.html 
 - user.html. 
+
 So, you can call below listed url if you don't wanna use the postman for generating JSON data.
 
 - http://localhost:8080/creditcard.html 
